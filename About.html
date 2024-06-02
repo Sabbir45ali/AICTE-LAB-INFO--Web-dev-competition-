@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AICTE-IDEA Lab</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" href="images/Logo 1.jpg" class="Favicon">
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="https://www.jiscollege.ac.in" target="_blank"><img src="images/clg logo.webp"></a>
+      <a href="https://idealnet.aicte-india.org" target="_blank"><img src="images/Logo 1.jpg"></a>
+      <a href="https://idealnet.aicte-india.org" target="_blank"><img src="images/Logo 2.jpg" alt=""></a>
+      <div class="nav-links" id="navLinks">
+        <p class="icon"><i class="fa-sharp fa-solid fa-circle-xmark" onclick="hideMenu()"></i></p>
+        <ul>
+          <li><a href="Home.html">HOME</a></li>
+          <li><a href="About.html">ABOUT</a></li>
+          <li><a href="Projects_Updated.html">PRODUCTS</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.Html">CONTACT US</a></li>
+        </ul>
+      </div>
+      <p class="icon"><i class="fa-solid fa-bars" onclick="showMenu()"></i></p>
+    </nav>
+    <h1>About Us</h1>
+  </section>
+   <!-- ----------------------about us content---------------------  -->
+  <section class="about-us">
+    <div class="row">
+      <div class="about-col">
+        <h1>JISCE has been selected among 104 colleges across India by AICTE to establish IDEA LAB</h1>
+        <p>JIS College of Engineering is a college located in Kalyani, West Bengal, India. The college was established in 2000.The Institution is declared Autonomous by the University Grants Commission (UGC) in 2011. In 2022, the college was accredited by NAAC with Grade-A. It is affiliated to Maulana Abul Kalam Azad University of Technology, West Bengal (MAKAUT,WB). The institute is ranked by NIRF in the range of 201–250 in 2021. In Atal Ranking of Institutions on Innovation Achievements (ARIIA) 2020, the institute has secured a place in Band B (Rank Between 26 th – 50 th ) among Private or Self-Financed College/Institutes in India. On 1 September 2020, the institute celebrated its 20th Birthday.
+        </p>
+        <a href="https://youtu.be/IoHvkVkaZuo" class="hero-btn blue-btn" target="_blank">Explore Now</a>
+      </div>
+      <div class="about-col">
+        <img src="images/About4.png">
+      </div>
+    </div>
+  </section>
+  <!-- -----------footer---------- -->
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum atque mollitia similique, <br> quae tempore sequi corporis pariatur iusto cumque explicabo ad repellendus minima dolore molestiae amet autem hic aliquam ipsum?</p>
+    <div class="icons">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-solid fa-square-envelope"></i>  
+    </div>
+    <p>Made With <i class="fa-regular fa-heart"></i> By Sabbir Ali</p>
+  </section>
+  <!-----------JS of toggle------------>
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+</html>
